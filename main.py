@@ -83,4 +83,4 @@ async def main():
         Actor.log.info(f'Completed fetching {len(results)} IP addresses')
         
 if __name__ == "__main__":
-    Actor.main()
+    Actor.run(main)
